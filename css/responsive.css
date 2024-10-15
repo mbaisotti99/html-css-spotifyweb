@@ -1,0 +1,44 @@
+
+@media screen and (min-width:425px) {
+    .top .entry li{
+        display: block;
+    }
+
+    div.crea{
+        display: block;
+    }
+
+    div.menu-bottom p{
+        display: inline-block;
+    }
+
+    .main-section .menu-bar{
+        width: 200px;
+    }
+
+    .content-bar .section-list li{
+        width: calc(100%/3);
+    }
+
+    .bot-sub2.flex-cont .sub-sub2{
+        width: 200px;
+    }
+
+    .bot-sect .bot-sub1:nth-child(3) p{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card-section .card{
+        width: calc(100% / 4);
+    }
+
+    .bot-sub2.flex-cont .sub-sub2{
+        width: 340px;
+    }
+
+    .card.flex-cont{
+        width: calc(100% / 6);
+    }
+}

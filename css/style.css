@@ -38,6 +38,38 @@ img{
     height: 100%;
 }
 
+.top{
+    list-style: none;
+}
+.top li{
+    display: none;
+}
+
+.top li a{
+    display: block;
+}
+
+.crea{
+    display: none;
+}
+
+.menu-bottom{
+    flex-wrap: wrap;
+}
+
+.menu-bottom p{
+    display: none;
+    width: 50%;
+}
+
+.menu-bottom span{
+    width: 40%;
+}
+
+.divmenu{
+    width: 100%;
+}
+
 /* MAIN-BAR */
 
 .main-bar{
@@ -66,6 +98,7 @@ img{
 .card{
     flex-direction: column;
     width: 50%;
+    padding: .5em;
 }
 
 .section-list li{
@@ -116,9 +149,10 @@ h1{
     width: calc(100% / 3);
     height: 100%;
     align-items: center;
+    padding: 0 20px;
 }
 
-.bot-sect .bot-sub1:nth-child(3) p{
+.bot-sub1:nth-child(3) p{
     width: 100%;
 }
 
@@ -146,8 +180,12 @@ h1{
 }
 
 .sub-sub2{
-    height: 2px;
+    height: 5px;
     width: 50px;
     background-color: grey;
     border-radius: 1px;
+}
+
+.bot-sect:nth-child(3){
+    justify-content: flex-end;
 }
