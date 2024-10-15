@@ -1,0 +1,8 @@
+[class$="bar"]{
+    border: 2px solid red;
+    min-height: 200px;
+}
+
+.main-container{
+    border: 1px solid red;
+}
