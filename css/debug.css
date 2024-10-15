@@ -1,6 +1,6 @@
 [class$="bar"]{
     border: 2px solid red;
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 
 .main-container{
