@@ -174,7 +174,7 @@ body{
 }
 
 .title-sub{
-    margin: 10px 15px;
+    margin: 15px 10px;
 }
 
 .bradius{
@@ -245,13 +245,15 @@ h1{
 
 .bot-bar{
     height: 150px;
+    background-color: #282828;
+    color: white;
 }
 
 .bot-sect{
     width: calc(100% / 3);
     height: 100%;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 .bot-sub1:nth-child(3) p{
@@ -263,9 +265,17 @@ h1{
 }
 
 .playing{
-    width: 50px;
-    height: 50px;
-    
+    width: 100px;
+}
+
+.bot-sub1{
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.bot-sub1 i{
+    font-size: 20px;
+    padding: 5px;
 }
 
 .bot-sub2{
@@ -283,11 +293,31 @@ h1{
 
 .sub-sub2{
     height: 5px;
-    width: 50px;
+    width: 100px;
     background-color: grey;
     border-radius: 1px;
 }
 
+.bot-sub2 i{
+    padding: 0 5px;
+    font-size: 30px;
+}
+
+.bot-sub2 i:nth-child(3){
+    font-size: 35px;
+    padding: 0 10px;
+}
+
 .bot-sect:nth-child(3){
     justify-content: flex-end;
+}
+
+.bot-sect:nth-child(3) i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.volume-bar{
+    width: 50px;
+    padding: 0 5px;
 }
