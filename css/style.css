@@ -11,6 +11,12 @@ img{
 }
 
 
+/* CUSTOM properties */
+
+:root{
+    --upgrade-height:100px;
+}
+
 /* COMMON */
 
 .main-container{
@@ -31,11 +37,28 @@ img{
     padding: .5rem;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+
 /* MENU-BAR  */
+
+
+.menu-top .fa-spotify{
+    font-size: 3rem;
+    margin: 5px 10px;
+}
 
 .menu-bar{
     width: 80px;
     height: 100%;
+    color: white;
+    background-color: black;
+}
+
+.menu-bar a{
+    color: inherit;
 }
 
 .top{
@@ -77,8 +100,10 @@ img{
 }
 
 .content-bar{
-    height: calc(100% - 50px);
+    height: calc(100% - var(--upgrade-height));
     overflow: auto;
+    color: white;
+    background-color: #141922;
 }
 
 .section-list{
@@ -87,6 +112,32 @@ img{
     flex-wrap: wrap;
     padding: .5em;
     row-gap: 15px;
+    font-weight: bolder;
+    font-size: 9px;
+    padding: 15px 25px;
+}
+
+.section-list a{
+    color: grey;
+    text-decoration: none;
+}
+
+.sect-hid{
+    height: 2px;
+    width: 30px;
+    background-color: greenyellow;
+    margin: 5px auto;
+    display: none;
+}
+
+.section-list li{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-list li:hover .sect-hid{
+    display: block;
 }
 
 /* CARDS */
@@ -99,19 +150,65 @@ img{
     flex-direction: column;
     width: 50%;
     padding: .5em;
+    text-align: center;
 }
+
+
+.card p{
+    color: grey;
+    padding: 5px 0;
+}
+
+.card h2{
+    padding: 5px 0;
+}
+
 
 .section-list li{
     width: calc(100% / 4);
 }
 
+.sub-jane{
+    color: gray;
+    padding: 10px 0;
+}
 
+.title-sub{
+    margin: 10px 15px;
+}
 
+.bradius{
+    border-radius: 50%;
+}
 
+.card-section .circle{
+    border-radius: 50%;
+}
 /* SIDE-BAR  */
 
 h1{
     display: none;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.top{
+    flex-direction: column;
+}
+
+.top a{
+    padding: 5px;
+    font-size: 30px;
+    width: 30%;
+}
+
+.entry{
+    align-items: center;
+    
 }
 
 .menu-bar{
@@ -126,17 +223,22 @@ h1{
 /* UPGRADE-BAR */
 
 .upgrade-bar{
-    height: 50px;
+    height: var(--upgrade-height);
     justify-content: flex-end;
+    background-color: #080B12;
+    color: white;
+    align-items: center;
 }
 
 .upgrade{
-    /* margin-left: auto;
-    margin-right: 0;
-    display: block;
-    width: 50px;
-    border: 1px solid black; */
+    margin: 0 20px;
+    padding: 20px 25px;
     align-self: center;
+    font-size: 14px;
+    height: 30%;
+    border: 1px solid white;
+    border-radius: 25px;
+    align-items: center;
 }
 
 /* BOT-BAR */
