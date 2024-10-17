@@ -60,6 +60,10 @@
 
 @media screen and (min-width:1024px) {
 
+    .content-bar .section-list li a{
+        font-size: 1.5rem;
+    }
+    
     .card.flex-cont{
         width: calc(100% / 6);
     }
@@ -67,5 +71,58 @@
     .section-list li a{
         font-size: 20px;
     }
+
+    .bot-sect .bot-sub1{
+        font-size: 1.5rem;
+    }
     
+    .bot-sect .bot-sub2{
+        font-size: 1.8rem;
+    }
+
+    .bot-sect .bot-sub2 i{
+        font-size: 3rem;
+        padding: .5em;
+    }
+
+    .bot-bar .bot-sect:nth-child(3) i{
+        font-size: 2rem;
+        padding: .5em;
+        gap: 5px;
+    }
+
+    .bot-sect .volume-bar{
+        width: 150px;
+        margin: 0 10px;
+    }
+
+    .main-container .main-section .menu-bar{
+        width: 400px;
+    }
+
+    .top .entry li{
+        font-size: 1.5rem;
+    }
+
+    .top .entry i{
+        font-size: 3rem;
+    }
+
+    .bot-sub2.flex-cont .sub-sub2{
+        width: 700px;
+    }
+
+    .bot-sect .bot-sub2 i:nth-child(3){
+        font-size: 3.5rem;
+        padding: 0 25px;
+    }
+
+    div.menu-bottom.flex-cont .divmenu{
+        font-size: 2rem;
+    }
+
+    div.menu-bottom.flex-cont .divmenu img{
+        width: 50px;
+        height: 50px;
+    }
 }
